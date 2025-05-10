@@ -78,9 +78,6 @@ Once the service is running, you can access the API documentation at:
 
 - Send plain text and HTML emails
 - Support for email templates
-- Email queue management
-- Attachment handling
-- Retry mechanism for failed emails
 
 ## Testing
 
