@@ -99,6 +99,9 @@ mailer/
 │   │   ├── logger
 │   │       ├── __init__.py
 │   │       ├── client.py # client api for calling logger micro-service
+│   │   ├── mailer
+│   │       ├── __init__.py
+│   │       ├── client.py # client api for calling mailer micro-service
 │   ├── setup.py               
 ├── mailer_service/       # Main package
 │   ├── __init__.py
