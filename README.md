@@ -1,5 +1,3 @@
-# mailer
-
 # Mailer Service
 
 This repository contains the Mailer Service, a microservice designed to handle email sending operations for the classroom booking system.
