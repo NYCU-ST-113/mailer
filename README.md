@@ -89,7 +89,7 @@ Once the service is running, you can access the API documentation at:
 Run the tests with:
 
 ```bash
-pytest
+python3 -m pytest test/test_mailer.py -v
 ```
 
 ## Project Structure
