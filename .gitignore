@@ -1,5 +1,5 @@
 echo "# Python
-venv/
+mailer_env/
 logs/
 csv_exports/
 __pycache__/

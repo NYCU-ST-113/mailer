@@ -63,16 +63,16 @@ Follow these steps to set up and run the Mailer Service on your local machine.
 Start the Mailer Service with:
 
 ```bash
-uvicorn mailer_service.main:app --reload --port 8001
+uvicorn mailer_service.main:app --reload --port 6000
 ```
 
-The service will be available at `http://localhost:8001`.
+The service will be available at `http://localhost:6000`.
 
 ## API Documentation
 
 Once the service is running, you can access the API documentation at:
-- Swagger UI: `http://localhost:8001/docs`
-- ReDoc: `http://localhost:8001/redoc`
+- Swagger UI: `http://localhost:6000/docs`
+- ReDoc: `http://localhost:6000/redoc`
 
 ## Features
 
