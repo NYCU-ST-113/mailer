@@ -27,14 +27,14 @@ Follow these steps to set up and run the Mailer Service on your local machine.
 2. **Create and activate a virtual environment**
    ```bash
    # Create a virtual environment
-   python3 -m venv venv
+   python3 -m venv mailer_env
    
    # Activate the virtual environment
    # On Linux/Mac:
-   source venv/bin/activate
+   source mailer_env/bin/activate
    
    # On Windows:
-   # venv\Scripts\activate
+   # mailer_env\Scripts\activate
    ```
 
 3. **Install dependencies**

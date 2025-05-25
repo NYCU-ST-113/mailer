@@ -12,7 +12,6 @@ from dotenv import load_dotenv
 from common_utils.logger.client import LoggerClient
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 import pathlib
-from common_utils.logger.client import LoggerClient
 
 # Set up template directory
 TEMPLATE_DIR = pathlib.Path(__file__).parent / "templates"
