@@ -16,7 +16,7 @@ class MailerClient:
                      or defaults to http://localhost:8001
         """
         self.service_name = service_name
-        self.base_url = base_url or os.environ.get("EMAIL_SERVICE_URL", "http://localhost:8001")
+        self.base_url = base_url or os.environ.get("EMAIL_SERVICE_URL", "http://localhost:7000")
     def send_email(self, 
                   to_email: Union[str, List[str]], 
                   subject: str, 
