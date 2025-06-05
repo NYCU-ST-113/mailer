@@ -2,6 +2,7 @@
 fastapi
 uvicorn
 pytest
+pytest-cov
 requests
 pydantic
 httpx

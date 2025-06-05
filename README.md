@@ -87,6 +87,11 @@ Run the tests with:
 python3 -m pytest test/test_mailer.py -v
 ```
 
+For coverage report:
+```bash
+python3 -m pytest --cov=mailer_service --cov-report=term-missing test/
+```
+
 ## Project Structure
 
 ```
